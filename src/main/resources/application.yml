@@ -1,0 +1,13 @@
+server:
+  port: 9898
+spring:
+  profiles:
+    active: ${PROFILE:prod}
+  config:
+    import: optional:configserver:${CONFIG_SERVER_URL:http://127.0.0.1:9997}
+  cloud:
+    config:
+      label: ${CONFIG_BRANCH:master}
+      username: ${SERVER_USER:geek}
+      password: ${SERVER_PASS:geek_pass}
+
