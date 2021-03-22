@@ -1,12 +1,13 @@
-package ru.kropotov.client1.rest;
+package ru.geekbrains.client1.rest;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.http.MediaType;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
-import ru.kropotov.client1.api.controllers.ProductApi;
-import ru.kropotov.client1.api.model.ProductDto;
+
+import ru.geekbrains.api.controllers.ProductApi;
+import ru.geekbrains.api.model.ProductDto;
 
 import java.util.List;
 

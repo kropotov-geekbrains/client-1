@@ -1,4 +1,4 @@
-package ru.kropotov.client1;
+package ru.geekbrains.client1;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
